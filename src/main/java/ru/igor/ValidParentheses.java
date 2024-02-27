@@ -2,11 +2,8 @@ package ru.igor;
 
 import java.util.Stack;
 
-// 20
-// Given a string s containing just the characters '(', ')', '{', '}', '[' and ']',
-// determine if the input string is valid.
 public class ValidParentheses {
-    public static boolean validParentheses(String s) {
+    public static boolean solve(String s) {
         var charStack = new Stack<Character>();
         var charArray = s.toCharArray();
 
