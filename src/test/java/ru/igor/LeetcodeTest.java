@@ -32,4 +32,10 @@ class LeetcodeTest {
         assertEquals(2, RemoveElement.solve(new int[]{3, 2, 2, 3}, 3));
         assertEquals(5, RemoveElement.solve(new int[]{0, 1, 2, 2, 3, 0, 4, 2}, 2));
     }
+
+    @Test
+    public void majorityElementTest() {
+        assertEquals(3, MajorityElement.solve(new int[]{3, 2, 3}));
+        assertEquals(2, MajorityElement.solve(new int[]{2, 2, 1, 1, 1, 2, 2}));
+    }
 }
