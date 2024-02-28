@@ -38,4 +38,11 @@ class LeetcodeTest {
         assertEquals(3, MajorityElement.solve(new int[]{3, 2, 3}));
         assertEquals(2, MajorityElement.solve(new int[]{2, 2, 1, 1, 1, 2, 2}));
     }
+
+    @Test
+    public void validPalindrome() {
+        assertTrue(ValidPalindrome.solve("A man, a plan, a canal: Panama"));
+        assertFalse(ValidPalindrome.solve("race a car"));
+        assertTrue(ValidPalindrome.solve(" "));
+    }
 }
