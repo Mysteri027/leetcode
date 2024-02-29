@@ -45,4 +45,11 @@ class LeetcodeTest {
         assertFalse(ValidPalindrome.solve("race a car"));
         assertTrue(ValidPalindrome.solve(" "));
     }
+
+    @Test
+    public void missingNumber() {
+        assertEquals(2, MissingNumber.solve(new int[] {3,0,1}));
+        assertEquals(2, MissingNumber.solve(new int[] {0,1}));
+        assertEquals(8, MissingNumber.solve(new int[] {9,6,4,2,3,5,7,0,1}));
+    }
 }
